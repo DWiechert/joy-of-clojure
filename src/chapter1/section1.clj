@@ -1,4 +1,4 @@
-(ns joy-of-clojure.chapter1.section1)
+(ns chapter1.section1)
 
 (def floop (fn [] (for [x [:a :b], y (range 5) :when (odd? y)] [x y])))
 
